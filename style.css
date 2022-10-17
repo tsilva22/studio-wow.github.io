@@ -115,7 +115,8 @@ ul {
 
 .botao-banner a,
 .botao-motivos a,
-.botao-nuvemshop a {
+.botao-nuvemshop a,
+.botao-planos a {
   padding: 15px 10px;
   color: #f1f1f1;
   font-weight: 600;
@@ -249,11 +250,98 @@ ul {
 
 .titulo-tipo-planos {
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 .plano-profissional,
 .plano-premium {
-  width: 400px;
   padding: 20px;
+  width: 320px;
+}
+
+.plano-profissional-head,
+.plano-premium-head {
+  text-align: center;
+  background-color: #242424;
+  padding: 10px;
+  line-height: 1em;
+}
+
+.container-planos {
+  background-color: #000000;
+  padding-top: 0px;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.container-planos h2 {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0px;
+}
+
+.container-planos .preco {
+  font-size: 22px;
+  font-weight: 100;
+  position: absolute;
+  left: 50px;
+  top: 35px;
+}
+
+.detalhe-planos {
+  width: 150px;
+  height: 6px;
+  background-color: #65ff653f;
+  position: absolute;
+  right: 86px;
+  top: 112px;
+  border: none;
+  position: absolute;
+}
+
+.info-planos {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.planos svg {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.lista-servicos-planos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3;
+  padding-left: 5px;
+  position: relative;
+}
+
+.lista-servicos-planos p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.container-lista:nth-child(2),
+.container-lista:nth-child(3) {
+  border-top: 2px solid rgba(255, 255, 255, 0.24);
+  padding-top: 8px;
+}
+
+.botao-planos {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.botao-planos a {
+  font-size: 18px;
+  padding: 0px 40px;
 }
