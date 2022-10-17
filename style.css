@@ -345,3 +345,129 @@ ul {
   font-size: 18px;
   padding: 0px 40px;
 }
+
+.background-duvidas {
+  position: relative;
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+
+.head-duvidas {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.titulo-duvidas {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.detalhe-duvidas {
+  width: 150px;
+  height: 15px;
+  background-color: rgba(177, 0, 109, 0.527);
+  position: absolute;
+  right: 420px;
+  top: 90px;
+  border: none;
+}
+
+.lista-duvidas {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.itens-duvidas {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.pergunta-duvida {
+  text-align: left;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 20px;
+  width: 850px;
+  position: relative;
+}
+
+.pergunta-duvida span {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  fill: #fff;
+}
+
+.itens-duvidas button {
+  text-decoration: none;
+  font-size: 14px;
+  background: #0a0a0a;
+  color: #fff;
+  border: none;
+}
+
+.itens-duvidas button:hover {
+  cursor: pointer;
+}
+
+.respostas-duvida {
+  width: 850px;
+}
+
+.respostas-duvida p {
+  margin: 5px;
+}
+
+.respostas-duvida a {
+  text-decoration: underline;
+  text-decoration-color: #00ff00;
+  color: #fff;
+}
+
+#box-resposta,
+#box-resposta2,
+#box-resposta3,
+#box-resposta4 {
+  display: none;
+}
+
+.itens-duvidas label {
+  -webkit-appearance: push-button;
+  -moz-appearance: button;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#container-respostas,
+#container-respostas2,
+#container-respostas3,
+#container-respostas4 {
+  display: none;
+}
+
+#box-resposta:checked ~ #container-respostas,
+#box-resposta2:checked ~ #container-respostas2,
+#box-resposta3:checked ~ #container-respostas3,
+#box-resposta4:checked ~ #container-respostas4 {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-resposta:checked ~ #container-respostas2,
+#box-resposta:checked ~ #container-respostas3,
+#box-resposta:checked ~ #container-respostas4 {
+  display: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-resposta:checked ~ .pergunta1 svg,
+#box-resposta2:checked ~ .pergunta2 svg,
+#box-resposta3:checked ~ .pergunta3 svg,
+#box-resposta4:checked ~ .pergunta4 svg {
+  transform: rotate(180deg);
+}
