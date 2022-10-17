@@ -1,0 +1,259 @@
+body,
+ul,
+a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+.container-background {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.elementos {
+  display: grid;
+  grid-template-columns: 1fr 650px 210px;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 180px;
+  padding-bottom: 30px;
+}
+
+.container-background .detalhe {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li a {
+  color: #b9b9b9;
+  font-weight: 600;
+}
+
+.menu li a:hover {
+  color: #00ff00;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.loja,
+.contato {
+  padding-left: 50px;
+}
+
+.background-transparente {
+  background-image: url("./img/fundo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container-banner {
+  display: grid;
+  grid-template-columns: 600px 400px;
+  place-content: center;
+  place-self: center;
+  padding-bottom: 2em;
+}
+
+.text-banner {
+  padding-top: 30px;
+}
+
+.text-banner .title-banner {
+  color: #f1f1f1;
+  font-size: 2.6em;
+  font-weight: 800;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.detalhe-title {
+  contain: "";
+  width: 140px;
+  height: 15px;
+  background-color: rgba(177, 0, 109, 0.527);
+  position: absolute;
+  right: 640px;
+  top: 200px;
+  border: none;
+}
+
+.text-banner .paragrafo-banner {
+  color: #f1f1f1;
+  font-size: 18px;
+  font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
+  max-width: 50ch;
+  font-weight: lighter;
+  line-height: 1.2em;
+}
+
+.botao {
+  background-color: #ff00ff;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-family: worksans-semibold, "work sans", sans-serif;
+  letter-spacing: 0.25em;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-top: 1em;
+  border: none;
+}
+
+.botao:hover {
+  background-color: #ca00ca;
+  transition: 0.3s;
+}
+
+.botao-banner a,
+.botao-motivos a,
+.botao-nuvemshop a {
+  padding: 15px 10px;
+  color: #f1f1f1;
+  font-weight: 600;
+}
+
+.letra-verde {
+  color: #00ff00;
+}
+
+.imagem-banner {
+  padding-top: 20px;
+}
+
+.container-motivos {
+  background-color: #111111;
+  padding-top: 50px;
+  color: white;
+  position: relative;
+}
+
+.container-motivos .detalhe-title-motivos {
+  width: 140px;
+  height: 15px;
+  background-color: rgba(177, 0, 109, 0.527);
+  position: absolute;
+  right: 398px;
+  top: 120px;
+  border: none;
+}
+
+.titulo-motivos h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.lista-motivos {
+  display: flex;
+  justify-content: center;
+}
+
+.motivos,
+.motivos-nuvemshop {
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 20px;
+  width: 250px;
+}
+
+.motivos h2 {
+  font-size: 20px;
+}
+
+.motivos p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.div-botao-motivos {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.container-motivos-nuvemshop {
+  background-color: #0a0a0a;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  color: #ffffff;
+}
+
+.detalhe-title-motivos-nuvemshop {
+  width: 150px;
+  height: 15px;
+  background-color: rgba(177, 0, 109, 0.527);
+  position: absolute;
+  right: 392px;
+  top: 1360px;
+  border: none;
+}
+
+.motivos-nuvemshop a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.background-planos {
+  background-color: #111111;
+  color: #fff;
+  padding-top: 40px;
+  position: relative;
+}
+
+.texto-planos {
+  text-align: center;
+}
+
+.titulo-planos {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.detalhe-title-motivos-planos {
+  width: 120px;
+  height: 15px;
+  background-color: rgba(177, 0, 109, 0.527);
+  position: absolute;
+  right: 375px;
+  top: 110px;
+  border: none;
+}
+
+.paragrafo-planos {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.paragrafo-planos a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.planos {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-tipo-planos {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.plano-profissional,
+.plano-premium {
+  width: 400px;
+  padding: 20px;
+}
