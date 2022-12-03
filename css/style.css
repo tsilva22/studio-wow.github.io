@@ -470,3 +470,40 @@ ul {
   color: #fff;
   border: none;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: 180px;
+  padding-bottom: 30px;
+}
+
+.footer-redes a {
+  padding-left: 25px;
+}
+
+.footer-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+  padding-right: 150px;
+  font-size: 20px;
+}
+
+.footer-contato a {
+  color: #ffffff;
+}
+
+.footer-contato a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  padding-top: 30px;
+  grid-column: 1;
+  text-align: left;
+}
