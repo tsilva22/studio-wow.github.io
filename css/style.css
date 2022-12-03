@@ -1,3 +1,5 @@
+@import "./utilidades/animacao.css";
+
 body,
 ul,
 a {
@@ -31,12 +33,12 @@ ul {
   display: flex;
 }
 
-.menu li a {
+.header-menu li a {
   color: #b9b9b9;
   font-weight: 600;
 }
 
-.menu li a:hover {
+.header-menu li a:hover {
   color: #00ff00;
   font-weight: 600;
   transition: 0.4s;
@@ -48,7 +50,7 @@ ul {
 }
 
 .background-transparente {
-  background-image: url("./img/fundo.webp");
+  background-image: url("../img/fundo.webp");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -385,7 +387,7 @@ ul {
   display: inline-block;
   width: 14px;
   height: 6px;
-  background: url("img/seta-abrir.svg");
+  background: url("../img/seta-abrir.svg");
   transition: 0.3s;
 }
 

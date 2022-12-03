@@ -5,44 +5,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./style.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
   <title>Studio WOW</title>
 </head>
 
 <body>
   <div class="background-transparente">
     <div class="container-background">
-      <div class="elementos">
-        <img class="logo" src="./img/logo.webp" alt="">
-        <nav>
-          <ul class="menu">
-            <li class="inicio"> <a href="./index.html">Início</a></li>
-            <li class="loja"> <a href="./index.html">Loja</a></li>
-            <li class="contato"> <a href="./index.html">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-      <span class="detalhe"><img src="./img/detalhe-head.webp" alt=""></span>
+      <header>
 
-      <div class="container-banner">
-        <div class="text-banner">
-          <span class="detalhe-title"></span>
-          <h1 class="title-banner titulos">Comece sua <span class="letra-verde position-relative">loja virtual</span> do jeito certo.</h1>
+        <div class="elementos">
+          <img class="logo" src="./img/logo.webp" alt="">
+          <nav>
+            <ul class="header-menu">
+              <li class="inicio"> <a href="./index.html">Início</a></li>
+              <li class="loja"> <a href="./index.html">Loja</a></li>
+              <li class="contato"> <a href="./index.html">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+        <span class="detalhe"><img src="./img/detalhe-head.webp" alt=""></span>
+      </header>
 
-          <p class="paragrafo-banner">A Studio WOW é uma agência especializada na criação de lojas virtuais <span class="letra-verde">profissionais</span> na plataforma Nuvemshop.</p>
-          <p class="paragrafo-banner">Montamos sua loja com um <span class="letra-verde">design exclusivo</span> e fazemos todas as configurações necessárias para você já sair vendendo em <span class="letra-verde">poucos dias</span>.</p>
-          <p class="paragrafo-banner">Somos apaixonados por resultados e também contamos com serviços de <span class="letra-verde">marketing digital</span> para fazer sua loja decolar.</p>
-          <button class="botao botao-banner"><a href="./index.html">QUERO LOJA VIRTUAL ➝</a></button>
+      <main>
+        <div class="container-banner">
+          <div class="text-banner">
+            <span class="detalhe-title fadeInDown" data-anime="200"></span>
+            <h1 class="title-banner titulos fadeInDown" data-anime="200">Comece sua <span class="letra-verde position-relative">loja virtual</span> do jeito certo.</h1>
+
+            <p class="paragrafo-banner fadeInDown" data-anime="300">A Studio WOW é uma agência especializada na criação de lojas virtuais <span class="letra-verde">profissionais</span> na plataforma Nuvemshop.</p>
+            <p class="paragrafo-banner fadeInDown" data-anime="400">Montamos sua loja com um <span class="letra-verde">design exclusivo</span> e fazemos todas as configurações necessárias para você já sair vendendo em <span class="letra-verde">poucos dias</span>.</p>
+            <p class="paragrafo-banner fadeInDown" data-anime="500">Somos apaixonados por resultados e também contamos com serviços de <span class="letra-verde">marketing digital</span> para fazer sua loja decolar.</p>
+            <button class="botao botao-banner fadeInDown" data-anime="800"><a href="./index.html">QUERO LOJA VIRTUAL ➝</a></button>
+          </div>
+          <div>
+            <img class="imagem-banner fadeInDown" data-anime="300" src="./img/celulares-capa.webp" alt="">
+          </div>
         </div>
-        <div>
-          <img class="imagem-banner" src="./img/celulares-capa.webp" alt="">
-        </div>
-      </div>
+      </main>
     </div>
   </div>
 
 
-  <div class="container-motivos">
+  <article class="container-motivos">
     <div class="titulo-motivos">
       <span class="detalhe-title-motivos"></span>
       <h1>Por que a <span class="letra-verde position-relative">Studio WOW?</span></h1>
@@ -76,10 +81,10 @@
     <div class="div-botao-motivos">
       <button class="botao botao-motivos"><a href=" ./index.html">QUERO LOJA VIRTUAL ➝</a></button>
     </div>
-  </div>
+  </article>
 
 
-  <div class="container-motivos-nuvemshop">
+  <article class="container-motivos-nuvemshop">
     <div class="titulo-motivos nuvemshop">
       <span class="detalhe-title-motivos-nuvemshop"></span>
       <h1>Por que a <span class="letra-verde position-relative">Nuvemshop?</span></h1>
@@ -107,7 +112,7 @@
     <div class="div-botao-motivos">
       <button class="botao botao-nuvemshop"><a href=" ./index.html">QUERO LOJA VIRTUAL ➝</a></button>
     </div>
-  </div>
+  </article>
 
 
   <div class="background-planos">
@@ -329,7 +334,7 @@
   </article>
 
 
-
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

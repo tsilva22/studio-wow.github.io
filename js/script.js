@@ -1,3 +1,17 @@
+// Menu ativo
+const links = document.querySelectorAll(".header-menu a");
+
+function ativarLink(link) {
+  const url = location.href;
+  const href = link.href;
+  if (url.includes(href)) {
+    link.classList.add("ativo");
+  }
+}
+
+links.forEach(ativarLink);
+
+//Perguntas frequentes
 const perguntas = document.querySelectorAll(".perguntas button");
 
 function ativarPergunta(event) {
@@ -15,3 +29,8 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas);
+
+// Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
